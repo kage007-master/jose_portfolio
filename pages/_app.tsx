@@ -2,7 +2,7 @@ import "../styles/globals.css";
 import { useState } from "react";
 import type { AppProps } from "next/app";
 import Script from "next/script";
-import { PortfolioContext } from "./context";
+import { PortfolioContext } from "../components/context";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const [workId, setWorkId] = useState<string | null>(null);
