@@ -14,7 +14,7 @@ import { Toaster } from "react-hot-toast";
 import WorkLb from "../components/worksPage/WorkLb";
 import SideMenuLb from "../components/SideMenuLb";
 import { BiMenu } from "react-icons/bi";
-import { PortfolioContext } from "./context";
+import { PortfolioContext } from "../components/context";
 import { Animation } from "../components/animation";
 interface Props {
   profileData: ProfileData;

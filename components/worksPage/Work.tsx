@@ -2,7 +2,7 @@ import Image, { StaticImageData } from "next/image";
 import { FaPlus } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { useContext } from "react";
-import { PortfolioContext } from "../../pages/context";
+import { PortfolioContext } from "../context";
 
 interface Props {
   title: string;
