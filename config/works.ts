@@ -1,3 +1,5 @@
+import EducateDashboard from "../assets/projects/educate/dashboard.png"
+import EducatePic1 from "../assets/projects/educate/pic1.png"
 import TotalInkDashboard from "../assets/projects/totalInk/dashboard.png";
 import TotalInkPic1 from "../assets/projects/totalInk/pic1.png";
 import TotalInkPic2 from "../assets/projects/totalInk/pic2.png";
@@ -35,9 +37,9 @@ export const works: WorksConnectionData = {
     {
       node: {
         id: "1",
-        title: "TotalInk",
-        images: [TotalInkDashboard],
-        workTabs: [{ tab: "All" }, { tab: "Recent" }],
+        title: "EducateAI",
+        images: [EducateDashboard],
+        workTabs: [{ tab: "All" }, { tab: "Recent" }, { tab: "AI" }],
       },
     },
     {
@@ -127,6 +129,14 @@ export const works: WorksConnectionData = {
         workTabs: [{ tab: "All" }, { tab: "Personal" }],
       },
     },
+    {
+      node: {
+        id: "11",
+        title: "TotalInk",
+        images: [TotalInkDashboard],
+        workTabs: [{ tab: "All" }, { tab: "Personal" }],
+      },
+    },
   ],
   pageInfo: {
     hasNextPage: false,
@@ -161,7 +171,7 @@ export const worksData = [
       "Access a comprehensive history of all interactions, stored in the database. Edit or remove specific items as needed.",
       "Elevate your experience by opting for the premium mode, available for purchase using Credit Card.",
     ],
-    images: [TotalInkDashboard, TotalInkPic1, TotalInkPic2],
+    images: [EducateDashboard, EducatePic1],
     date: "04/11/2023",
   },
   {
@@ -404,5 +414,27 @@ export const worksData = [
     ],
     images: [MakaiDashboard, MakaiPic1, MakaiPic2, MakaiPic3],
     date: "11/02/2022",
+  },
+  {
+    id: "11",
+    description:
+      "Total Ink Solutions is committed to providing customers with the perfect “mix” of quality, reliability and customer service. The expert staff behind the scenes at Total Ink Solutions always provide the highest quality customer service backed up by our state of the art screen printing ink",
+    title: "TotalInk",
+    workUrl: "https://totalink.com/",
+    githubUrl: "string",
+    clientName: "Luis Uribe",
+    ownerName: "Jose Torres",
+    techStack: [
+      "Remix",
+      "Shopify Hydrogen",
+      "GraphQL",
+    ],
+    userActions: [
+      "Sign up and Sign in for create the owner shopping account", 
+      "Research the special products through the product detail page", 
+      "Use the effortless payment way using Paypal, Payoneer, and etc",
+    ],
+    images: [TotalInkDashboard, TotalInkPic1, TotalInkPic2],
+    date: "01/16/2023",
   },
 ];

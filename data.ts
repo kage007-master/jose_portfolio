@@ -83,8 +83,8 @@ export const socialMedia: SocialMedia[] = [
     Icon: FaEnvelopeSquare,
     label: "Gmail",
     logoColor: "#171515",
-    mediaUrl: "mailto:smart.jamesjin@gmail.com",
-    info: "mailto:smart.jamesjin@gmail.com",
+    mediaUrl: "mailto:jose10084u@gmail.com",
+    info: "mailto:jose10084u@gmail.com",
   },
   {
     id: 4,

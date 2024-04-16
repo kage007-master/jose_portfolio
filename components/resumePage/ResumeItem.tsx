@@ -18,7 +18,7 @@ export default function ResumeItem({ resume, border }: Props) {
         className={`${
           resume.badge.endsWith("Present")
             ? "text-primary border-primary"
-            : "text-gray-500 border-gray-500"
+            : "text-gray-300 border-gray-500"
         } border border-solid text-xl py-0.5 px-3 tracking-wide inline-block`}
       >
         {resume.badge}
@@ -40,10 +40,10 @@ export default function ResumeItem({ resume, border }: Props) {
         )}
       </div>
 
-      <p className="text-gray-500 text-xl capitalize tracking-wider">
+      <p className="text-gray-300 text-xl capitalize tracking-wider">
         {resume.subTitle}
       </p>
-      <pre className="text-gray-500 text-xl tracking-wide mt-5 text-ellipsis overflow-hidden leading-none">
+      <pre className="text-gray-300 text-xl tracking-wide mt-5 text-ellipsis overflow-hidden leading-none">
         {resume.desc}
       </pre>
     </div>
